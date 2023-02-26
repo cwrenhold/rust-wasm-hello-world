@@ -4,8 +4,3 @@ use wasm_bindgen::prelude::*;
 pub fn add(a: i32, b: i32) -> i32 {
     a + b
 }
-
-#[wasm_bindgen]
-pub fn hello_world() -> String {
-    "Hello World!".to_string()
-}
